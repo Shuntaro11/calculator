@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Rationale', sans-serif;
+  color: rgb(95, 95, 95);
+}
+.machine{
+  padding: 25px;
+  width: 400px;
+  border: 2px solid black;
+  box-shadow: -2px -2px 3px rgb(175, 175, 175) inset;
+  border-radius: 3px;
+}
+.display{
+  width: 100%;
+  border: 2px solid black;
+  font-size: 50px;
+  text-align: right;
+  padding: 0 10px 0 40px;
+  box-shadow: 3px 3px 3px rgb(175, 175, 175) inset;
+  background: rgba(168, 235, 255, 0.253);
+  border-radius: 2px;
+  overflow: hidden;
+}
+#notice{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+.btn-area{
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  
+}
+.number-area{
+  width: 240px;
+  height: 400px;
+  text-align: center;
+  font-size: 30px;
+  table-layout: fixed;
+  box-shadow: 1px 1px 1px rgb(175, 175, 175) inset;
+  border-radius: 2px;
+  background: rgb(243, 243, 243);
+}
+.calculation-area{
+  width: 80px;
+  height: 400px;
+  text-align: center;
+  font-size: 40px;
+  table-layout: fixed;
+  box-shadow: 1px 1px 1px rgb(175, 175, 175) inset;
+  border-radius: 2px;
+  background: rgb(243, 243, 243);
+}
+td{
+  box-shadow: -2px -2px 3px rgb(175, 175, 175) inset;
+  border-radius: 3px;
+  background: white;
+}
+td:hover{
+  background: rgb(230, 230, 230);
+}
+td:active {
+  box-shadow: 1px 1px 3px rgb(175, 175, 175) inset;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
